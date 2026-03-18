@@ -1,0 +1,83 @@
+h2 {
+    display: none;
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: hsl(220, 70%, 32%);
+    color: white;
+    text-align: center;
+}
+aside {
+    background: hsl(220, 70%, 32%);
+    font-size: 120%;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+aside a {
+    color: white;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+aside a:hover {
+    background-color: #72beec;
+    color: beige;
+}
+aside a:focus {
+    background-color: #72beec;
+    color:#e0e3de;
+    outline: none;
+}
+
+article {
+    background-color: #241ee6;
+    color: #14dff1;
+    font-size: 120%;
+    padding: 0 10px;
+}
+
+article a {
+    color: #241ee6;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+article a:hover {
+    background-color: #72beec;
+    color: white;
+}
+article a:focus {
+    background-color: white;
+    color: #210eb1;
+    outline: none;
+}
+
+#main_image {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+    aside {
+        align-items:center;
+        display: flex;
+        flex-direction: column;
+        float: left;
+        justify-content: center;
+        width: 30%;
+    }
+    section {
+        display: inline;
+        float: right;
+        width: 70%;
+    }
+}
