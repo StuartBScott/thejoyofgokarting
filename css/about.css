@@ -4,7 +4,13 @@ h2 {
   font-weight: normal;
   text-align: center;
 }
-
+}
+h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
 p {
   color: black;
   font-size: 18px;
